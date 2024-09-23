@@ -1,0 +1,76 @@
+html -<html></html>
+head -<h1></h1>
+body -<body></body>
+paragragh -<p></p>
+bold - <b></b>
+italic -<em></em>
+superlative -<sup></sup>
+subscript -<sub></sub>
+strike -<s></s>
+highlight -<mark></mark>
+link -<a></a>
+block tag -take entire width ,eg -<h></h> <p></p>
+inline tag -only take needed width ,eg -<a href=""></a>,<img>
+inline to block tag(to break a inline) -<br>
+target="blank" -to load page in differnet tab -<a href="" target="blank"></a>
+ordered list -<ol><li></li></ol>
+unorderd list -<ul><li></li></ul>
+decription list -<dl><dt><dd></dd></dt></dl>
+visible horizontal line -<hr>
+form -for inputing -<form></form>
+label -inside form to -<label for="name">name</label>
+input -to input text,number ... -<input type="text">
+button -to input -<button type="submit">submit</button>
+textarea -to input large text -<textarea name="" id=""></textarea>
+radio button -to chose from multiple option -<input type="radio"><label></label>
+select -to select from option like dropdown box -<select name="" id=""><option></option></select>
+hidden -an attribute of option in select to hide an option -<option hidden></option>
+checkbox -to choose multiple option from options -<input type="checkbox"><label>java</label>
+table -used to display contents in rows and colmun -<table><thead></thead><tbody><tr></tr><td></td><th></th></tbody></table>
+for row -<tr></tr> ,for colmun -<td></td>, for colmun in bold -<th></th>
+colspan -to merge colmun <td colspan=""></td>
+rowspan -to merge row <td rowspan=""></td>
+image -to display image -<img src="" alt="">
+width - an attribute in img tag to adjust size <img width="px" src="">
+container -to contain multiple tags -<div></div>(comonly used),<section></section>,<article></article>
+video -to display a videos -<video src=""></video>
+semantic tags -to easy for search engine -<header></header>,<nav></nav>,<section></section>,<article></article>,<aside></aside>,<footer></footer>
+
+<!-- css -->
+
+css is style sheet
+inline css -to style as atribute-<p style="color: red;">css</p>
+internal  css -to using selectors ther are differnert type of selectors-<style></style>
+external css -to style in another file and link together html and css file - <link rel="stylesheet" href="./css.style">
+selectors -to acceses tags for styling -tag name,id-"#",class-"."(to group and change unifotmly),universal -"*"(to change every tags unversly),css combinators to group differnet tag name,id,class and same tag name,id,class
+gruoping -use coma ,
+decentent -use space
+child -use greater than >
+sibling -use tiled ~
+immediate -use +
+<!-- css properties -->
+ float -to make a particular thing in a single line
+ position -control position of element in html
+  static
+  fixed
+  absolute
+  relative
+  sticky
+zindex
+flexbox -use to arrange html elements in rows or colmun
+Grid -used to display element in rows and colmun ,where we can fix the column width
+grid -tempale -clomun/row :to set width of colmun /row
+row gap- gap btw row
+colmun gap -gap btw colmun
+linear-gradient-it is used to set combination of background color
+background-image:  linear-gradient(direction ,color)
+css animation- @keyframes animation property to define 
+animation -www.animate.style.com(reaload animation)
+aos animate-scroll animation
+website hosting-
+ -netlify(easy way)
+ -github -used to control versions of a code
+  commands
+   *git status(it is used to check status of git inside the folder)
+   *git init(used to create or intiate git repository in a folder)
+
